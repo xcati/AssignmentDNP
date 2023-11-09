@@ -1,0 +1,44 @@
+@page "/ViewPosts/{postId:int}"
+@using global::Shared.Models
+@using HttpClients.ClientInterfaces
+@inject IPostService postService
+@attribute [Authorize]
+
+
+<h3>View Posts</h3>
+
+@if (posts == null)
+{
+    <p>Loading posts...</p>
+}
+else if (!posts.Any())
+{
+    <p>No posts to display.</p>
+}
+else
+{
+    <ul>
+        @foreach (var post in posts)
+        {
+            <li>
+                <strong>@post.Title</strong> by @post.Owner.UserName
+                <p>@post.Body</p>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private IEnumerable<Post> posts;
+    [Parameter] public int? postId { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        posts = await postService.GetAsync(null, null, null, null);
+
+        if (postId.HasValue)
+        {
+            posts = posts.Where(p => p.Id == postId);
+        }
+    }
+}

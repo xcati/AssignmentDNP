@@ -1,0 +1,10 @@
+@page "/BlockPageWithPolicy"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Policy="MustBeVia")]
+
+<h3>Here I tried something</h3>
+<p>This page can only be viewed if you're a TeAcHeR(;</p>
+
+@code {
+
+}

@@ -1,0 +1,77 @@
+/* navmenu.css */
+
+.navbar-toggler {
+    background-color: #DDA0DD;
+}
+
+.top-row {
+    height: 3.5rem;
+    background-color: #FAEBD7;
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+    color: #DA70D6;
+}
+
+.oi {
+    width: 2rem;
+    font-size: 1.4rem;
+    vertical-align: text-top;
+    top: -2px;
+    color: #DA70D6;
+}
+
+.nav-item {
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+    color: #CD5C5C;
+}
+
+.nav-item:first-of-type {
+    padding-top: 1rem;
+}
+
+.nav-item:last-of-type {
+    padding-bottom: 1rem;
+}
+
+/* Update link color */
+.nav-item a, .nav-item a:link, .nav-item a:visited {
+    color: #CD5C5C !important; /* Added !important */
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Hover effect */
+.nav-item a:hover {
+    background-color: rgba(205, 92, 92, 0.1); /* Adjusted hover color */
+    color: #fff; /* Text color on hover */
+}
+
+/* Active link style */
+.nav-item a.active {
+    background-color: rgba(205, 92, 92, 0.25);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .collapse {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+
+    .nav-scrollable {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}

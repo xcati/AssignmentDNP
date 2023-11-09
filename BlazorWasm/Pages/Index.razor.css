@@ -1,0 +1,42 @@
+body {
+    background-color: #FAEBD7; /* Light Brown */
+    font-family: system-ui;
+}
+
+h3 {
+    color: #CD5C5C;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Container for each post */
+.post-container {
+    background-color: #FFE4C4; /* Moccasin */
+    border: 1px solid #CD5C5C; /* IndianRed */
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(50% - 20px); /* 2 columns with margin in between */
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #CD5C5C; /* Cornflower Blue */
+    text-decoration: none;
+}
+
+/* Title style within the post container */
+.post-container strong {
+    color: #3a0647; /* Dark Magenta */
+}

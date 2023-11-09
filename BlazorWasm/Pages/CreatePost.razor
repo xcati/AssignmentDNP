@@ -1,0 +1,84 @@
+@page "/CreatePost"
+
+@using HttpClients.ClientInterfaces
+@using global::Shared.Models
+@using global::Shared.DTOs
+@inject IUserService userService
+@inject IPostService postService
+@inject NavigationManager navMgr
+@attribute [Authorize]
+
+<h3>Create Post</h3>
+
+<div>
+    <div class="form-group field">
+        <label>Title:</label>
+        <input type="text" @bind="postTitle" />
+    </div>
+    <div class="form-group field">
+        <label>Written by:</label>
+        <select @bind="selectedUserId">
+            <option>Choose</option>
+            @foreach (User user in users)
+            {
+                <option value="@user.Id">@user.UserName</option>
+            }
+        </select>
+    </div>
+    <div class="form-group field">
+        <label>Body:</label>
+        <textarea @bind="postBody"></textarea>
+    </div>
+    <div>
+        <button @onclick="CreatePostAsync">Create</button>
+    </div>
+</div>
+
+@code {
+    private IEnumerable<User> users;
+    private int? selectedUserId;
+    private string postTitle = "";
+    private string postBody = "";
+    private string msg = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            users = await userService.GetUsers();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+    private async Task CreatePostAsync()  // Change method name here
+    {
+        msg = "";
+        if (selectedUserId == null)
+        {
+            msg = "You must select a user!";
+            return;
+        }
+        if (string.IsNullOrEmpty(postTitle))
+        {
+            msg = "Title cannot be empty!";
+            return;
+        }
+
+        try
+        {
+            PostCreationDto dto = new((int)selectedUserId, postTitle, postBody);
+            await postService.CreateAsync(dto);
+            navMgr.NavigateTo("/ViewPosts");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

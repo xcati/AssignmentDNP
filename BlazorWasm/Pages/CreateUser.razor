@@ -1,0 +1,49 @@
+@page "/CreateUser"
+@using global::Shared.DTOs
+@using HttpClients.ClientInterfaces
+@inject IUserService userService;
+@attribute [Authorize]
+
+<div class="form-group field">
+     <label>User name:</label>
+     <input type="text" @bind="userName" @bind:event="oninput"/>
+     @if (!string.IsNullOrEmpty(resultMsg))
+     {
+         <label style="color: @color">@resultMsg</label>
+     }
+ </div>
+ <div class="form-group field">
+     <label>Password:</label>
+     <input type="password" @bind="password" @bind:event="oninput"/>
+ </div>
+ <div class="button-row">
+     <button @onclick="Create" disabled="@(string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))" class="acceptbtn">Create</button>
+ </div>
+
+
+@code {
+    private string userName = "";
+    private string password = ""; 
+    private string resultMsg = "";
+    private string color = "";
+    
+    private async Task Create()
+    {
+        resultMsg = "";
+
+        try
+        {
+            await userService.Create(new UserCreationDto(userName, password));
+            userName = "";
+            password = "";
+            resultMsg = "User successfully created";
+            color = "green";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+            color = "red";
+        }
+    }
+}
