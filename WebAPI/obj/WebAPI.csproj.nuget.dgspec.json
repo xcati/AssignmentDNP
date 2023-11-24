@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Application\\Application.csproj": {
+    "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\catin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Application\\obj\\",
+        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\catin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj"
+              "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj"
               }
             }
           }
@@ -57,18 +57,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj": {
+    "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
+        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
         "projectName": "BlazorWasm",
-        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
+        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
         "packagesPath": "C:\\Users\\catin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\BlazorWasm\\obj\\",
+        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\catin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -83,11 +83,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\HttpClients\\HttpClients.csproj": {
-                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\HttpClients\\HttpClients.csproj"
+              "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\HttpClients\\HttpClients.csproj": {
+                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\HttpClients\\HttpClients.csproj"
               },
-              "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj"
+              "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj"
               }
             }
           }
@@ -134,7 +134,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.13, 7.0.13]"
+              "version": "[7.0.14, 7.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -142,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -151,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\FileData\\FileData.csproj": {
+    "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\EfcDataAccess\\EfcDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\FileData\\FileData.csproj",
-        "projectName": "FileData",
-        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\FileData\\FileData.csproj",
+        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\EfcDataAccess\\EfcDataAccess.csproj",
+        "projectName": "EfcDataAccess",
+        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\EfcDataAccess\\EfcDataAccess.csproj",
         "packagesPath": "C:\\Users\\catin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\FileData\\obj\\",
+        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\EfcDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\catin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -173,8 +173,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Application\\Application.csproj"
+              "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Application\\Application.csproj"
               }
             }
           }
@@ -188,6 +188,22 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -204,18 +220,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\HttpClients\\HttpClients.csproj": {
+    "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\HttpClients\\HttpClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\HttpClients\\HttpClients.csproj",
+        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\HttpClients\\HttpClients.csproj",
         "projectName": "HttpClients",
-        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\HttpClients\\HttpClients.csproj",
+        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\HttpClients\\HttpClients.csproj",
         "packagesPath": "C:\\Users\\catin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\HttpClients\\obj\\",
+        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\HttpClients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\catin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -230,8 +246,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj"
+              "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj"
               }
             }
           }
@@ -261,18 +277,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj": {
+    "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\catin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\catin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -320,18 +336,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\catin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\catin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -340,21 +356,21 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.310\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.311\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Application\\Application.csproj"
+              "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Application\\Application.csproj"
               },
-              "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj": {
-                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj"
+              "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj": {
+                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj"
               },
-              "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\FileData\\FileData.csproj": {
-                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\FileData\\FileData.csproj"
+              "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\EfcDataAccess\\EfcDataAccess.csproj": {
+                "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\EfcDataAccess\\EfcDataAccess.csproj"
               }
             }
           }
@@ -401,7 +417,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     }

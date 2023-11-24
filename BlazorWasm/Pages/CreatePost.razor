@@ -19,9 +19,12 @@
         <label>Written by:</label>
         <select @bind="selectedUserId">
             <option>Choose</option>
-            @foreach (User user in users)
+            @foreach (User user in users ?? Enumerable.Empty<User>())
             {
-                <option value="@user.Id">@user.UserName</option>
+                if (user != null)
+                {
+                    <option value="@user?.Id">@user?.UserName</option>
+                }
             }
         </select>
     </div>
@@ -33,9 +36,12 @@
         <button @onclick="CreatePostAsync">Create</button>
     </div>
 </div>
+<Modal ShowModal="showModal">
+   <p>You have successfully added a new Todo item. You should be very proud of yourself!</p>
+</Modal> 
 
 @code {
-    private IEnumerable<User> users;
+    private IEnumerable<User>? users;
     private int? selectedUserId;
     private string postTitle = "";
     private string postBody = "";
@@ -55,7 +61,7 @@
         }
     }
 
-    private async Task CreatePostAsync()  // Change method name here
+    private async Task CreatePostAsync() 
     {
         msg = "";
         if (selectedUserId == null)
@@ -73,7 +79,7 @@
         {
             PostCreationDto dto = new((int)selectedUserId, postTitle, postBody);
             await postService.CreateAsync(dto);
-            navMgr.NavigateTo("/ViewPosts");
+            //navMgr.NavigateTo("/ViewPosts");
         }
         catch (Exception e)
         {

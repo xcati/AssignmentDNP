@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj": {}
+    "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj": {
+    "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\catin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\catin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -24,7 +24,7 @@ public class PostLogic : IPostLogic
             throw new Exception($"User with id {dto.OwnerId} was not found.");
         }
 
-        Post post = new Post(user, dto.Title, dto.Body);
+        Post post = new Post(user.Id, dto.Title, dto.Body);
 
         ValidatePost(post);
 
@@ -43,7 +43,7 @@ public class PostLogic : IPostLogic
 
         if (existing == null)
         {
-            throw new Exception($"Todo with ID {dto.Id} not found!");
+            throw new Exception($"Post with ID {dto.Id} not found!");
         }
 
         User? user = null;
@@ -60,7 +60,7 @@ public class PostLogic : IPostLogic
         string titleToUse = dto.Title ?? existing.Title;
         string bodyToUse = dto.Body ?? existing.Body;
         
-        Post updated = new (userToUse, titleToUse, bodyToUse)
+        Post updated = new (userToUse.Id, titleToUse, bodyToUse)
         {
             Id = existing.Id,
         };
@@ -79,7 +79,16 @@ public class PostLogic : IPostLogic
 
         await postDao.DeleteAsync(id);
     }
-    
+    public async Task<PostBasicDto> GetByIdAsync(int id)
+    {
+        Post? post = await postDao.GetByIdAsync(id);
+        if (post == null)
+        {
+            throw new Exception($"Post with id {id} not found");
+        }
+
+        return new PostBasicDto(post.Id, post.Owner.UserName, post.Title, post.Body);
+    } 
     private void ValidatePost(Post dto)
     {
         if (string.IsNullOrEmpty(dto.Title)) throw new Exception("Title cannot be empty.");

@@ -10,34 +10,19 @@ public class AuthService : IAuthService
     {
         new User
         {
-            Age = 36,
-            Email = "trmo@via.dk",
-            Domain = "via",
-            Name = "Troels Mortensen",
             Password = "onetwo3FOUR",
-            Role = "Teacher",
             UserName = "trmo",
             SecurityLevel = 4
         },
         new User
         {
-            Age = 34,
-            Email = "jakob@gmail.com",
-            Domain = "gmail",
-            Name = "Jakob Rasmussen",
             Password = "password",
-            Role = "Student",
             UserName = "jknr",
             SecurityLevel = 2
         },
         new User
         {
-        Age = 22,
-        Email = "307040@via.dk",
-        Domain = "via",
-        Name = "Catinca Toma",
         Password = "123456",
-        Role = "Student",
         UserName = "cati",
         SecurityLevel = 2
     }

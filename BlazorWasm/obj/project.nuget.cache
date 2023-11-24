@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vEFfjqsbhqe2Cs2ONUF/qhVVvYD9xCbVfWkjUdc7F+JVh4o2fF2t2JvEOOaHoZVNODbcDfqn7BEuW5g0gO3o4w==",
+  "dgSpecHash": "TVmtpRGfmaNZ8Zcboz2qrMvrb5Fas21NAfi4BHYK2H0fp7EfDg0kuUK1PRKasR96u5ktZIHkLzZyaoYyfdJPEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
+  "projectFilePath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\catin\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
     "C:\\Users\\catin\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.13\\microsoft.aspnetcore.components.7.0.13.nupkg.sha512",
@@ -32,7 +32,7 @@
     "C:\\Users\\catin\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\catin\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\catin\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\catin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.13\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.13.nupkg.sha512"
+    "C:\\Users\\catin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.14\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

@@ -111,6 +111,11 @@ h3[b-xzgi4u3qtl] {
     vertical-align: top;
 }
 
+.post-container-wrapper[b-xzgi4u3qtl]{
+    width: 100%;
+}
+
+
 ul[b-xzgi4u3qtl] {
     list-style-type: none;
     padding: 0;

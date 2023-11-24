@@ -18,7 +18,7 @@ public class PostsController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<Post>> CreateAsync(PostCreationDto dto)
+    public async Task<ActionResult<Post>> CreateAsync([FromBody]PostCreationDto dto)
     {
         try
         {
@@ -40,7 +40,10 @@ public class PostsController : ControllerBase
         {
             SearchPostParametersDto parameters = new(userName, userId, titleContains, bodyContains);
             var posts = await postLogic.GetAsync(parameters);
-            return Ok(posts);
+
+            // Ensure User information is included
+            var postsWithOwner = posts.Select(post => new { post.Id, post.Title, post.Body, post.Owner.UserName });
+            return Ok(postsWithOwner);
         }
         catch (Exception e)
         {
@@ -48,6 +51,7 @@ public class PostsController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+
 
     [HttpPatch]
     public async Task<ActionResult> UpdateAsync([FromBody] PostUpdateDto dto)
@@ -71,6 +75,20 @@ public class PostsController : ControllerBase
         {
             await postLogic.DeleteAsync(id);
             return Ok();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<PostBasicDto>> GetById([FromRoute] int id)
+    {
+        try
+        {
+            PostBasicDto result = await postLogic.GetByIdAsync(id);
+            return Ok(result);
         }
         catch (Exception e)
         {

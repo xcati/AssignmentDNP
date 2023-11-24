@@ -1921,11 +1921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
+      "projectUniqueName": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
       "projectName": "BlazorWasm",
-      "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
+      "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
       "packagesPath": "C:\\Users\\catin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\BlazorWasm\\obj\\",
+      "outputPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\catin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1940,11 +1940,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\HttpClients\\HttpClients.csproj": {
-              "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\HttpClients\\HttpClients.csproj"
+            "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\HttpClients\\HttpClients.csproj": {
+              "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\HttpClients\\HttpClients.csproj"
             },
-            "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP Assignment\\Shared\\Shared.csproj"
+            "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\Shared\\Shared.csproj"
             }
           }
         }
@@ -1991,7 +1991,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[7.0.13, 7.0.13]"
+            "version": "[7.0.14, 7.0.14]"
           }
         ],
         "frameworkReferences": {
@@ -1999,7 +1999,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

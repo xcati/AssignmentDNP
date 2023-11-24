@@ -1,19 +1,19 @@
-namespace Shared.DTOs;
-
-public class SearchPostParametersDto
+namespace Shared.DTOs
 {
-    public string? Username { get;}
-    public int? UserId { get;}
-    public string? TitleContains { get;}
-    
-    public string? BodyContains { get;}
-
-
-    public SearchPostParametersDto(string? username, int? userId, string? titleContains, string? bodyContains)
+    public class SearchPostParametersDto
     {
-        Username = username;
-        UserId = userId;
-        TitleContains = titleContains;
-        BodyContains = bodyContains;
+        public string? UserName { get; set; }
+        public int? UserId { get; set; }
+        public string? TitleContains { get; set; }
+        public string? BodyContains { get; set; }
+
+        public SearchPostParametersDto(string? username, int? userId, string? titleContains, string? bodyContains)
+        {
+            UserName = username;
+            UserId = userId;
+            TitleContains = titleContains;
+            BodyContains = bodyContains;
+        }
     }
 }
+

@@ -103,7 +103,7 @@ public class PostHttpClient : IPostService
             query += string.IsNullOrEmpty(query) ? "?" : "&";
             query += $"titlecontains={titleContains}";
         }
-        if (!string.IsNullOrEmpty(titleContains))
+        if (!string.IsNullOrEmpty(bodyContains)) 
         {
             query += string.IsNullOrEmpty(query) ? "?" : "&";
             query += $"bodycontains={bodyContains}";

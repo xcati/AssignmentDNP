@@ -1,7 +1,7 @@
 using Application.LogicInterfaces;
+using Microsoft.AspNetCore.Mvc;
 using Shared.DTOs;
 using Shared.Models;
-using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers;
 

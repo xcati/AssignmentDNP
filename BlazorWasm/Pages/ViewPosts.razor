@@ -1,11 +1,11 @@
 @page "/ViewPosts/{postId:int}"
 @using global::Shared.Models
 @using HttpClients.ClientInterfaces
-@inject IPostService postService
+@inject IPostService PostService
 @attribute [Authorize]
 
 
-<h3>View Posts</h3>
+<h3>View Post</h3>
 
 @if (posts == null)
 {
@@ -21,8 +21,8 @@ else
         @foreach (var post in posts)
         {
             <li>
-                <strong>@post.Title</strong> by @post.Owner.UserName
-                <p>@post.Body</p>
+                <strong>@post?.Title</strong> by @post?.Owner?.UserName
+                <p>@post?.Body</p>
             </li>
         }
     </ul>
@@ -30,11 +30,22 @@ else
 
 @code {
     private IEnumerable<Post> posts;
-    [Parameter] public int? postId { get; set; }
+
+    [Parameter]
+    public int? postId { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        posts = await postService.GetAsync(null, null, null, null);
+        Console.WriteLine("OnInitializedAsync called");
+        try
+        {
+            posts = await PostService.GetAsync(userName: null, userId: null, titleContains: null, bodyContains: null);
+            Console.WriteLine($"Number of posts: {posts.Count()}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
 
         if (postId.HasValue)
         {
