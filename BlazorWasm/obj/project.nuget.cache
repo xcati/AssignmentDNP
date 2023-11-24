@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TVmtpRGfmaNZ8Zcboz2qrMvrb5Fas21NAfi4BHYK2H0fp7EfDg0kuUK1PRKasR96u5ktZIHkLzZyaoYyfdJPEw==",
+  "dgSpecHash": "qmL02x2sqEq8M7z58RTEkElMacjCsqA7fe8jZQkbU07CM1okuC+6EgwwoAstJrK87nA+7QcJEqXhNjNL+cVTkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\catin\\RiderProjects\\DNP\\DNP Assignment\\BlazorWasm\\BlazorWasm.csproj",
+  "projectFilePath": "C:\\Users\\catin\\RiderProjects\\AssignmentDNP\\BlazorWasm\\BlazorWasm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\catin\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
     "C:\\Users\\catin\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.13\\microsoft.aspnetcore.components.7.0.13.nupkg.sha512",

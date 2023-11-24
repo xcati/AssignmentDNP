@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HttpClients
-build_property.ProjectDir = C:\Users\catin\RiderProjects\DNP\DNP Assignment\HttpClients\
+build_property.ProjectDir = C:\Users\catin\RiderProjects\AssignmentDNP\HttpClients\

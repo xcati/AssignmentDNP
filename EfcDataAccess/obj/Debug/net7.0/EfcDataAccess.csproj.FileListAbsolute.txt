@@ -17,3 +17,22 @@ C:\Users\catin\RiderProjects\DNP Assignment\EfcDataAccess\obj\Debug\net7.0\refin
 C:\Users\catin\RiderProjects\DNP Assignment\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.pdb
 C:\Users\catin\RiderProjects\DNP Assignment\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.genruntimeconfig.cache
 C:\Users\catin\RiderProjects\DNP Assignment\EfcDataAccess\obj\Debug\net7.0\ref\EfcDataAccess.dll
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\bin\Debug\net7.0\EfcDataAccess.deps.json
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\bin\Debug\net7.0\EfcDataAccess.runtimeconfig.json
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\bin\Debug\net7.0\EfcDataAccess.dll
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\bin\Debug\net7.0\EfcDataAccess.pdb
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\bin\Debug\net7.0\Application.dll
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\bin\Debug\net7.0\Shared.dll
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\bin\Debug\net7.0\Application.pdb
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\bin\Debug\net7.0\Shared.pdb
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.csproj.AssemblyReference.cache
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.AssemblyInfoInputs.cache
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.AssemblyInfo.cs
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.csproj.CopyComplete
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.dll
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\refint\EfcDataAccess.dll
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.pdb
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\EfcDataAccess.genruntimeconfig.cache
+C:\Users\catin\RiderProjects\AssignmentDNP\EfcDataAccess\obj\Debug\net7.0\ref\EfcDataAccess.dll
